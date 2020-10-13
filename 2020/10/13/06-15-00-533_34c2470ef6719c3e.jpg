@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+    	<title>Loscavio Media | Frankie Loscavio</title>
+    	<meta name="description" content="My passion is design. Design is my life and it transcends all mediums. For me, design is problem solving and I live and breathe for making things work in creative ways. Design and development are intertwined and I find myself in love with both.">
+    	<meta name="keywords" content="UX, UI, Atlanta Front-End Engineer, User Experience, Web Design, Frankie Loscavio, Atlanta, JavaScript, Angular, CSS, HCI">
+    	<meta name="author" content="Frankie Loscavio">
+    	
+    	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    	
+    	<style>
+    	@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic);
+        html, body, .container {
+            /*height: 100%;*/
+        }
+        body{
+            font-family: 'Open Sans', sans-serif;
+            color: #565657;
+            background-color: #fff;
+            font-size: calc(100% + 2vw);
+            margin: 30px;
+        }
+        .quote{
+            font-style: italic;
+        }
+        .sep{
+            width: 18px;
+            display: inline-block;
+        }
+        .container {
+            /*position: relative;*/
+            padding-top: 2px;
+            text-align: center;
+        }
+        .container > .content {
+            /*position: absolute;*/
+            /*top: 10%;*/
+            left: 0;
+            right: 0;
+            margin-top: -30px;
+            text-align: justify;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <p>
+                    "<span class="quote">We become creative when we realize the infinite possibilities within us and when we understand that our function is not merely to exist but to contribute to life, to improve it, and to make it more meaningful to others.</span>" - Frederick Mayer
+                </p>
+            	<p>
+                    Frankie Loscavio<br/>
+                    Full Experience Engineer<br/>
+                    <a class="link" href="mailto:frankie@loscavio.com" title="frankie@loscavio.com">frankie@loscavio.com</a><br />
+                    <a class="link" href="https://www.linkedin.com/in/frankieloscavio" title="https://www.linkedin.com/in/frankieloscavio">linkedin.com/in/frankieloscavio</a>
+                </p>
+            </div>
+        </div>
+         <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+          ga('create', 'UA-283345-1', 'auto');
+          ga('send', 'pageview');
+        
+        </script>
+    </body>
+</html>
